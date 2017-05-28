@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-author : yinboya
+author : Robert Yin
 
 the edited file of https://github.com/pavelgonchar/colornet
 
