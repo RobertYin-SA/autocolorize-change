@@ -47,7 +47,7 @@ class ConvolutionalBatchNormalizer(object):
 
   def normalize(self, x, train=True):
     """Returns a batch-normalized version of x."""
-    if train is not None:
+    if train:
       mean, variance = tf.nn.moments(x, [0, 1, 2])
       assign_mean = self.mean.assign(mean)
       assign_variance = self.variance.assign(variance)
